@@ -1,0 +1,14 @@
+{
+	"name": "node-weather",
+	"version": "1.0.0",
+	"description": "Weather app with NodeJs",
+	"main": "index.js",
+	"type": "module",
+	"keywords": [],
+	"author": "Enrique J. Spinelli",
+	"license": "MIT",
+	"dependencies": {
+		"axios": "^1.6.8",
+		"chalk": "^5.3.0"
+	}
+}
