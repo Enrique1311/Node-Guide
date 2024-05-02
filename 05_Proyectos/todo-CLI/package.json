@@ -1,0 +1,20 @@
+{
+	"name": "todo-cli",
+	"version": "1.0.0",
+	"description": "Todo App desde NodeJs",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start": "nodemon index.js",
+		"start-2": "node index-2.js"
+	},
+	"keywords": [],
+	"author": "Enrique Javier Spinelli",
+	"license": "MIT",
+	"dependencies": {
+		"chalk": "^5.3.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.0"
+	}
+}
