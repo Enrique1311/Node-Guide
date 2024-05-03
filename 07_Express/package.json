@@ -1,0 +1,16 @@
+{
+	"name": "07_express",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "Enrique J. Spinelli",
+	"license": "Mit",
+	"dependencies": {
+		"express": "^4.19.2"
+	}
+}
