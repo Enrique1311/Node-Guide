@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  main.container
+    h1= title
+    form(action=`/edit/${task.id}`, method='POST')
+      label(for='title') New Task Title
+      input(type='text', name='title', id='title', value=task.title, required)
+      button(type='submit', class="edit-button") Edit
+    a(href='/', class='back-button') ↩️🏠 Back
